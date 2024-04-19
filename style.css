@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-primaria: #e1e1e1;
+    --cor-secundaria:#464646;
+    --cor-terciaria:#22D4FD;
+    --cor-link: #272727;
+
+    --fonte-primaria: 'Raleway', sans-serif;    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background:var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    color:var(--cor-secundaria);
+    
+}
+
+.Menu {
+    display: flex;
+    justify-content:center; 
+    align-items: center ;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    gap: 4.375rem;
+}
+
+.Menu__link {
+    display: flex;
+    align-items: center; 
+    flex-grow: 0;
+    color: (var(--cor-secundaria));
+    font-family: var(--fonte-primaria);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.logo__menu {
+    width: 10%;
+}
+
+
+.apresentacao__primeira{
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    
+}
+
+.apresentacao__inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.titulo__apresentacao{
+    font-size: 2rem;
+}
+
+.subtitulo__apresentacao{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+.Imagem__sobremim{ 
+    width: 30%;
+}
+
+.apresentacao__links {
+    display: flex;  
+    padding: 8% 5%;
+    justify-content: center;  
+}        
+
+.imagem__links {
+    gap: 10px;
+    width: 20%;
+    }
+
+    
+.apresentacao__adicional{
+    padding: 8% 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+   
+}
+
+.sobre__mim {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.itens__skills{
+    display: flex;
+    gap: 10px;
+
+}
+
+.itens__skills__sozinhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid var(--cor-secundaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1.34rem 0;
+
+}
+
+.itens__formacao{
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.titulo__formacao{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.imagem__formação {
+    width: 30%;
+}
+
+.imagem__formação__alura {
+    width:30%;
+}
+
+.curso__formacao {
+    font-weight: 700;
+}
+
+.contato {
+    padding: 8% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.formulario__contato {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+.principal__formulario{
+   display: flex;
+   flex-direction: column;
+   justify-content: row;
+   gap: 10px;
+   
+}
+
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background: #a6a6a6 ;
+    
+}
+
+@media (max-width: 894px) {
+
+    .Menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center; 
+        align-items: center ;
+        height: 5rem;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .logo__menu {
+        width: 20%;
+    }
+
+    .apresentacao__primeira{
+        padding: 8% 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+          
+    gap: 82px;
+        
+    }
+    
+    .titulo__apresentacao{
+        display: flex;
+        justify-items: center;
+    
+    }
+
+    .Imagem__sobremim {
+        width: 80%;
+    }
+
+    .itens__skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150%;
+    }
+
+    .itens__formacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .imagem__formação {
+        width: 50%;
+    }
+
+    .imagem__formação__alura {
+        width: 50%;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+      
+        justify-items: center;
+       
+      
+    }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Carolina Marccelli </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="Menu__principal">
+        <nav class="Menu">
+                <img class="logo__menu" src="./assets/Logo Carolina Marccelli.png" alt="Logo Carolina Marccelli">   
+
+                <a class="Menu__link" href="#">Inicial</a>
+                <a class="Menu__link" href="#sobre">Sobre Mim</a>
+                <a class="Menu__link" href="#hobbies">Soft Skills</a>
+                <a class="Menu__link" href="#formacoes">Formações </a>
+                <a class="Menu__link" href="#experiencia">Experiência </a>
+                <a class="Menu__link" href="#contato">Contato</a>
+            
+        </nav>       
+    </header>
+   
+    <main class="apresentacao">
+        <section class="apresentacao__primeira">
+
+        <section class="apresentacao__inicial">
+            <h1 class="titulo__apresentacao">Me chamo Carolina Marccelli e construo páginas web</h1> 
+            <p class="subtitulo__apresentacao">Sou uma profissional front-end estudando e colecionando experiências para me tornar Full Stack.</p>
+            <section class="alinhar__links">
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links__link" href="https://instagram.com/carolinamarccelli">
+                        <img class="imagem__links" src="./assets/Insta.png" alt="icone instagram">
+                    </a>
+                    <a class="apresentacao__links__link" href="https://github.com/cmarccelli">
+                        <img class="imagem__links" src="./assets/Git.png" alt="icone github">
+                    </a>
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/carolinamarccelli">
+                        <img class="imagem__links" src="./assets/Linkdin.png" alt="icone linkedin">
+                    </a> 
+                    <a class="apresentacao__links__link" href="Curriculo.html">
+                        <img class="imagem__links" src="./assets/Curriculo.png" alt="icone Curriculo">
+                    </a>    
+                </div>
+            </section>
+        </section>
+        <img class="Imagem__sobremim" src="./assets/Foto Carolina Marccelli.png" alt="Foto de rosto da Carolina Marccelli">
+        </section>
+       
+        <section class="apresentacao__adicional">
+        <section class="sobre__mim" id="sobre">
+            <h2 class="titulo__sobre__mim">Sobre Mim</h2>
+            <p>Eu sou formada em enegenharia mecânica e estou em transição de carreira, posso ser considerada atualmente como uma estudante, estou participando do projeto Oracle ONE, com o intuito de me especializar em front-end e me inserir nesse mercado de trabalho. Futuramente pretendo me tornar Full Stack. Estou dando um passo de cada vez, e fazendo o meu melhor para ser uma das melhores da área.</p>
+            <p> Vou iniciar também um curso de programação em python em maio, para adicionar mais uma habilidade nesse mundo da pogramação ao meu curriculo.
+            </p>
+        </section>
+            
+         <section class="skills" id="hobbies">
+            <h2 class="titulo__skills">Skills</h2>
+            <section class="itens__skills">
+                <p class="itens__skills__sozinhos">HTML</p>
+                <p class="itens__skills__sozinhos">CSS</p>
+                <p class="itens__skills__sozinhos">Java Script</p>
+                <p class="itens__skills__sozinhos">Corel Draw</p>
+                <p class="itens__skills__sozinhos">AutoCad</p>
+            </section>
+        </section>
+
+        <section id="formacao__academica">
+            <h2 class="titulo__formacao">Formação acadêmica</h2>
+            <section class="itens__formacao">
+                <section class="formacao">
+                    <img class="imagem__formação" src="./assets/Logo Estacio.png" alt="logo faculdade estacio">
+                    <p class="curso__formacao">Engenharia mecânica</p>
+                    <p class="data__formacao">2016- Estácio</p>
+                </section>
+                <section class="formacao">
+                    <img class="imagem__formação__alura" src="./assets/Logo Alura.png" alt="logo faculdade estacio">
+                    <p class="curso__formacao">Programação Font-End</p>
+                    <p class="data__formacao">Em andamento - Allura</p>
+                </section>
+            </section>
+        </section>
+        <!-- <section id="experiencia">
+            <h2>Experiência em Programação</h2>
+            <p>Experiência profissional...</p>
+        </section>      -->
+    
+        </section>
+
+    <section class="contato" id="contato">   
+        <section class="formulario__contato">
+
+            <h2 class="titulo__contato">Contato</h2>
+            <p class="subtitulo__contato">Quer entrar em contato comigo? 
+               Preencha o formulário, ou me manda um email, que eu vou retornar o mais rápido possivel.
+            </p>
+            <form class="principal__formulario" data-formulario>
+                <fieldset class="formulario__campo">
+                    <label class="campo__etiqueta" for="nome">Nome</label>
+                    <input name="nome" id="nome" class="campo__escrita" type="text" minlength="3" required/>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+
+                <fieldset class="formulario__campo">
+                    <label class="campo__etiqueta" for="email">E-mail</label>
+                    <input name="email" id="email" class="campo__escrita" type="email" minlength="4" required/>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+
+                <fieldset class="formulario__campo">
+                    <label class="campo__etiqueta" for="message">Mensagem</label>
+                    <input name="message" id="message" class="campo__escrita campo__escrita--menor" type="text" required/>
+                    <span class="mensagem-erro"></span>
+                </fieldset>
+                
+                       
+                <div>
+                    <input value="Enviar" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
+                    <span class="mensagem-erro"></span>
+                </div>
+            </form>
+
+            <p class="email__contato">E-mail : Cmarccelli@gmail.com</p>
+            </section>
+       
+         <section class="imagem__contato">
+             <img class="Imagem__para__contato" src="./assets/Imagem contato.png" alt="imagem de elementos que fazem o contato">
+        </section>
+    </section>
+    </main>
+    <footer class="rodape">
+        <p> Desenvolvido por Carolina Marccelli © 2024 </p>
+    </footer>
+    <script src="../js/script.js" type="module"></script>
+</body>
+</html>
